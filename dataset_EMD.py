@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import LION.CTtools.ct_geometry as ctgeo
 from torch.utils.data import Dataset
 import torchvision.transforms as transforms
-from utils import *
+from utils_inverse import *
 
 
 
