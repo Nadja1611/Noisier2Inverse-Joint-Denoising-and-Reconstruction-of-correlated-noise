@@ -13,15 +13,14 @@ import logging
 import numpy as np
 from scipy.stats import wasserstein_distance
 from tqdm import tqdm
-from model import *
-from dataset_EMD import *
+from .model import *
+from .dataset_EMD import *
 from utils_inverse import create_noisy_sinograms
 import argparse
 from torch.utils.data import DataLoader
 import psutil
 from ts_algorithms import fbp, tv_min2d
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
-
 
 # Parsing arguments for testing
 parser = argparse.ArgumentParser(
