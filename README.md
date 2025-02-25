@@ -5,3 +5,11 @@
 ---
 
 ## 📂 Repository Structure  
+
+---
+
+## 🚀 Installation  
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/yourusername/Noisier2Inverse.git
+cd Noisier2Inverse
