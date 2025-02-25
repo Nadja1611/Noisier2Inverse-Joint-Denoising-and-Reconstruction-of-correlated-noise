@@ -1,6 +1,6 @@
 # 📜 Noisier2Inverse: Self-supervised learning for one-step reconstruction of noisy inverse problems with correlated noise
 
-*A deep learning framework for denoising and reconstructing medical images using self-supervised learning (Noise2X methods) and inverse problem formulations.*
+*A deep learning framework for denoising and reconstructing medical images using self-supervised learning specifically designed for correlated noise.*
 
 ---
 
