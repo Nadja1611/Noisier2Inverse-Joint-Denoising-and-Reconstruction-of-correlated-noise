@@ -16,9 +16,9 @@
 ## 🚀 Installation  
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/Noisier2Inverse.git
+git clone https://github.com/Nadja1611/Noisier2Inverse-Joint-Denoising-and-Reconstruction-of-correlated-noise.git
 cd Noisier2Inverse
 ```
-
+### **1️⃣ Install Packages**  
 
 
