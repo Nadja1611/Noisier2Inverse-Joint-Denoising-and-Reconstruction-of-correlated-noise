@@ -7,6 +7,9 @@
 ## 📂 Repository Structure  
 
 ---
+## Workflow Diagram
+![Noisier2Inverse Workflow](n2i_workflow.png)
+
 
 ## 🚀 Installation  
 ### **1️⃣ Clone the Repository**  
@@ -15,5 +18,5 @@ git clone https://github.com/yourusername/Noisier2Inverse.git
 cd Noisier2Inverse
 
 
-## Workflow Diagram
-![Noisier2Inverse Workflow](n2i_workflow.png)
+
+
