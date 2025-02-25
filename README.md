@@ -22,6 +22,7 @@ cd Noisier2Inverse
 ### **2️⃣ Create an environment and install LION** 
 
 Install the LION package from [https://github.com/CambridgeCIA/LION](https://github.com/CambridgeCIA/LION)
+```bash
 cd ..
 git clone https://github.com/CambridgeCIA/LION.git
 cd LION
@@ -29,5 +30,5 @@ git submodule update --init --recursive
 conda env create --file=env.yml
 conda activate LION
 pip install .
-
+```
 
