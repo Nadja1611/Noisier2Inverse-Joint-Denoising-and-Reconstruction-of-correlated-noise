@@ -13,3 +13,6 @@
 ```bash
 git clone https://github.com/yourusername/Noisier2Inverse.git
 cd Noisier2Inverse
+
+
+![Noisier2Inverse Workflow](n2i_workflow.png)
