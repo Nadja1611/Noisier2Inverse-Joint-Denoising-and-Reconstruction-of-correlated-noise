@@ -19,6 +19,8 @@
 git clone https://github.com/Nadja1611/Noisier2Inverse-Joint-Denoising-and-Reconstruction-of-correlated-noise.git
 cd Noisier2Inverse
 ```
-### **1️⃣ Install Packages**  
+### **2️⃣ Install LION** 
+Install the LION package from [https://github.com/CambridgeCIA/LION](https://github.com/CambridgeCIA/LION)
+
 
 
