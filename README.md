@@ -35,6 +35,8 @@ pip install .
 
 ### **2️⃣ Install all required packages of Noisier2Inverse using requirements file** 
 As a last step, all additional packages required for Noisier2Inverse can be installed via the following command:
+
 ```bash
 pip install -r requirements.txt
 ```
+
