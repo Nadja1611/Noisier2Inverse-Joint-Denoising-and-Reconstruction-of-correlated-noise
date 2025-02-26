@@ -40,8 +40,14 @@ As a last step, all additional packages required for Noisier2Inverse can be inst
 pip install -r requirements.txt
 ```
 
+
+### **🚀 Run Noisier2Inverse**
 Noisier2Inverse can be run by the following command
 
 ```bash
 python noisier2inverse.py -l "DataDomain_MSE_EMD" --angles 512 --noise_type "gauss" --learning_rate 1e-5 --noise_intensity 1 --noise_sigma 5 --batch_size 4 --datadir '' --outputdir "" --weights_dir "" 
 ```
+
+Now you're ready to run Noisier2Inverse and start denoising and reconstructing your images!
+
+Let me know if you need any more tweaks! 😊
