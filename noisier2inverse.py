@@ -25,7 +25,7 @@ import skimage
 import argparse
 import gc
 from scipy.ndimage import gaussian_filter
-from dataset_EMD import *
+from dataset import *
 from utils_inverse import create_noisy_sinograms
 from matplotlib.ticker import MaxNLocator
 import psutil
