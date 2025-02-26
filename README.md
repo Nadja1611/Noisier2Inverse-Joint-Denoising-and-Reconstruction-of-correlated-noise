@@ -4,29 +4,6 @@
 
 
 
-## 📂 Repository Structure  
-
-Noisier2Inverse/  
-│  
-├── Data/                    # Data files (raw and processed)  
-│   ├── raw/                 # Raw data (e.g., DICOM, CT scans)  
-│   └── processed/           # Processed data (e.g., cleaned/augmented data)  
-│  
-├── Data_Heart/              # Documentation  
-│   ├── index.md             # Main documentation file  
-│   └── setup.md             # Setup instructions  
-│  
-├── bash_scripts/            # bash.sh is the bash script for running the noisier2inverse.py file, while the other bash scripts serve for plotting and reproducing the exact same plots from the paper  
-│  
-│── dataset.py               # Defines dataloaders  
-│── model.py                 # Unet used as joint reconstruction and denoising method  
-│── noisier2inverse.py       # Main script for running denoising  
-│── two-step.py              # Two-step method described in our paper  
-│── utils_inverse.py         # Necessary utils for noisier2inverse, helper functions  
-│  
-├── requirements.txt         # Required Python packages  
-├── README.md                # Project description and setup instructions
-
 ## Workflow Diagram
 ![Noisier2Inverse Workflow](n2i_workflow.png)
 
