@@ -11,7 +11,7 @@
 ## 🚀 Installation  
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/Nadja1611/Noisier2Inverse-Joint-Denoising-and-Reconstruction-of-correlated-noise.git
+git clone https://github.com/Nadja1611/Poisson_Project.git
 cd Noisier2Inverse
 ```
 ### **2️⃣ Create an environment and install LION** 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 Noisier2Inverse can be run by the following command
 
 ```bash
-python noisier2inverse.py -l "DataDomain_MSE_EMD" --angles 512 --noise_type "gauss" --learning_rate 1e-5 --noise_intensity 1 --noise_sigma 5 --batch_size 4 --datadir '' --outputdir "" --weights_dir "" 
+python noisier2inverse.py -l "DataDomain_MSE_EMD" --angles 512 --noise_type "poisson" --learning_rate 1e-5 --noise_intensity 1 --noise_sigma 5 --batch_size 4 --datadir '' --outputdir "" --weights_dir "" 
 ```
 
 Now you're ready to run Noisier2Inverse and start denoising and reconstructing your images!
