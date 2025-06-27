@@ -132,9 +132,9 @@ def preprocess(clean, width, height):
 
 
 """ function for generating correlated noise """
-def add_correlated_noise(img, sigma):
+def add_correlated_noise(img, intensity, sigma):
     # Step 1: Generate random white noise
-    noise = np.random.normal(0, 3, img.shape)
+    noise = np.random.normal(0, intensity, img.shape)
     # Step 2: Apply Gaussian filter to introduce spatial correlation
     max_img = np.max(img)  # Ensure this is a scalar
     correlated_noise = scipy.ndimage.gaussian_filter(noise, sigma=sigma)
